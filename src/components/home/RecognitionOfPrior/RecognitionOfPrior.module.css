@@ -1,0 +1,69 @@
+.mainBox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 157px 156px;
+}
+.mainBox .conteinerText {
+  width: 740px;
+  height: 790px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+.conteinerText h1 {
+  font-size: 45px;
+  font-weight: 700px;
+}
+
+.conteinerText img {
+  width: 264px;
+  height: 15px;
+  margin-bottom: 75px;
+  margin-top: 6px;
+}
+.conteinerText .pBox {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+.pBox p {
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+.mainBox .conteinerImg {
+  width: 571px;
+  height: 766px;
+  position: relative;
+  margin-top: 40px;
+}
+.conteinerImg .firstPointImg {
+  width: 161px;
+  height: 152px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 4;
+}
+.conteinerImg .manWidtHandImg {
+  width: 490px;
+  height: 625px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 38px;
+  z-index: 5;
+}
+.conteinerImg .studentImg {
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  z-index: 6;
+}
+.conteinerImg .lastPointImg {
+  position: absolute;
+  right: 0px;
+  bottom: 63px;
+  z-index: 4;
+}

@@ -1,0 +1,24 @@
+.mainBox {
+  width: 100%;
+  height: 968px;
+  background-image: url("../../../assets//routeElementsImg/camera.png");
+  display: flex;
+  justify-content: center;
+}
+.mainBox .textBox {
+  width: 761px;
+  height: 228px;
+  margin-top: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.textBox h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.textBox p {
+  font-size: 24px;
+}

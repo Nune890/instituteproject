@@ -1,0 +1,59 @@
+.mainBox {
+  width: 100%;
+  height: 1183px;
+  display: flex;
+  flex-direction: column;
+  padding: 120px 156px 300px 156px;
+}
+.mainBox h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.mainBox .container {
+  width: 1416px;
+  height: 863px;
+  margin-top: 115px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .containerRightBox {
+  width: 553px;
+  height: 863px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .containerLeftBox {
+  width: 720px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.containerRightBox .rightTopBox {
+  width: 100%;
+  height: 291px;
+  display: flex;
+  padding: 0 67px 0 59px;
+  position: relative;
+  justify-content: space-between;
+  align-items: end;
+}
+.rightTopBox .pointImg{
+   position: absolute;
+   top: 0;
+   right: 0;
+   z-index: 3;
+  }
+  .rightTopBox  img{
+   z-index: 4;
+  }
+  .rightTopBox .books{
+    width: 169px;
+    height: 228px;
+  }
+  .containerRightBox .RightBottomBoxImg{
+    width: 100%;
+    height: 544px;
+  }

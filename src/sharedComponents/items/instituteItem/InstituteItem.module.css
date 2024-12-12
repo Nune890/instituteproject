@@ -1,0 +1,18 @@
+.mainBox{
+    width: 338px;
+    height: 364px;
+    background-size: cover;
+    padding: 0 20px;
+}
+/* .mainBox img{
+   width: 100%;
+   height: 100%;
+    object-fit: cover; 
+    position: absolute;
+}  */
+.mainBox p{
+bottom: 0;
+color: white;
+font-size: 18px;
+margin-top: 248px;
+}

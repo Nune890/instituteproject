@@ -1,0 +1,21 @@
+.mainBox{
+    width: 100%;
+    height: 968px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../../assets/routeElementsImg/boock.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainBox h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 230px;
+}
+.mainBox p{
+    width: 45%;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}

@@ -1,0 +1,71 @@
+.footerBox {
+  width: 100%;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 156px;
+  background-color: #141414;
+}
+.footerBox .leftBox {
+  width: 576px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.leftBox .leftChildBox {
+  width: 100%;
+  height: 150px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.leftChildBox p{
+  padding-left: 10px;
+}
+.leftChildBox img {
+  width: 170px;
+  height: 80px;
+}
+.footerBox .middleBox {
+  width: 403px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.middleBox .aBox {
+  width: 130px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.middleBox a {
+  text-decoration: none;
+  color: white;
+}
+.footerBox .rightBox {
+  width: 156px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.footerBox .rightChildBox {
+  width: 150px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rightBox .socialMediaBox {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.rightChildBox a {
+  color: white;
+  text-decoration: none;
+}

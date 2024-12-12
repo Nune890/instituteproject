@@ -1,0 +1,43 @@
+.close {
+  width: 720px;
+  height: 89px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+  align-items: center;
+  border: 1px solid #C8C5C5;
+  position: relative;
+  transition: 0.5s;
+  cursor: pointer;
+  color: #292925;
+  font-size: 18px;
+}
+
+.open {
+  width: 720px;
+  height: 312px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+  flex-wrap: wrap;
+  position: relative;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 18px;
+  border: 1px solid #C8C5C5;
+}
+.open p{
+  color: #505050;
+}
+.pluss {
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 30px;
+  top: 25px;
+}

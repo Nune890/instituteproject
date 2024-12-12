@@ -1,0 +1,33 @@
+.itemBox {
+  width: 337px;
+  height: 313px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ee4248;
+  border-radius: 8px;
+  padding: 20px;
+}
+.itemNameBox {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.itemNameBox h3 {
+  margin-left: 20px;
+}
+.itemBox ul {
+  width: 100%;
+  height: 223px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+ul li {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: #4d5756;
+}

@@ -1,0 +1,7 @@
+.menuBox button{
+    color: white;
+}
+.menuBox button span{
+    text-transform: lowercase;
+    margin-right: 5px;
+}

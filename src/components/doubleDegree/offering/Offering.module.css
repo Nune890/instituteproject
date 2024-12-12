@@ -1,0 +1,51 @@
+.mainBox {
+  width: 100%;
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 99px;
+  padding-bottom: 200px;
+  justify-content: space-between;
+  position: relative;
+  background-color: antiquewhite;
+}
+.mainBox .headerTextBox {
+  width: 694px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.headerTextBox .redP {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #ee4248;
+}
+.headerTextBox h1 {
+  font-size: 45px;
+  align-items: center;
+}
+.headerTextBox p {
+  font-size: 18px;
+}
+.mainBox .itemsBox {
+  width: 1200px;
+  height: 964px;
+  bottom: 189px;
+  right: 34px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px 24px;
+  z-index: 4;
+}
+.mainBox .pointImg {
+  position: absolute;
+  right: 210px;
+  bottom: 150px;
+  z-index: 3;
+}
+

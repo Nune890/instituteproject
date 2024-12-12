@@ -1,0 +1,56 @@
+.mainBox {
+  width: 100%;
+  height: 1361px;
+}
+.mainBox .heroBox {
+  width: 100%;
+  height: 1056px;
+  background-image:url("../../../assets/homeImg/institute.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.heroBox .nameBox{
+    width: 1240px;
+    height: 400px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.nameBox h1{
+    font-weight: 800;
+    font-size: 75px;
+    text-align: center;
+    color: white;
+}
+.nameBox p{
+    width: 580px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.nameBox button{
+    width: 214px;
+    height: 61px;
+    background-color: #FF0000;
+    border-radius: 36px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.homeBox{
+    width: 100%;
+    height: 364px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 980px;
+}
+.homeBox img{
+    width: 250px;
+    height: 100%;
+}
