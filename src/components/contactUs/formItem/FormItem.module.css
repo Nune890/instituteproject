@@ -1,4 +1,6 @@
 form {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -8,6 +10,7 @@ form label {
   font-size: 16px;
   color: #464646;
   margin-bottom: 15px;
+  position: relative;
 }
 form label input {
   width: 480px;
@@ -25,6 +28,29 @@ form label textarea {
   margin-top: 10px;
   outline: none;
   border: none;
-  padding-left: 26px;
+  padding: 26px;
   resize: none;
 }
+form button {
+  width: 193px;
+  height: 61px;
+  background-color: #ff0000;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+form label span {
+  display: flex;
+  justify-content: end;
+  color: red;
+  margin-top: 5px;
+}
+form label .arrow{
+position: absolute;
+right:10px;
+top: 50px;
+}
+/* .red{
+  background-color: red;
+} */

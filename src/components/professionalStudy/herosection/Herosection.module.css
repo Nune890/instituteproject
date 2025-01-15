@@ -1,0 +1,7 @@
+.mainBox{
+    width: 100%;
+    height: 968px;
+    background-image: url("../../../assets/routeElementsImg/profStudyBook.png");
+    background-size:cover;
+    background-position: center;
+}

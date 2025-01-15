@@ -7,6 +7,7 @@ import DoubleDegree from "./components/doubleDegree/DoubleDegree";
 import Doctoral from "./components/doctoral/Doctoral";
 import Fac from "./components/fac/Fac";
 import ContactUs from "./components/contactUs/ContactUs";
+import ProfessionalStudy from "./components/professionalStudy/ProfessionalStudy";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
           <Route path="/doctoral" element={<Doctoral />} />
           <Route path="/faq" element={<Fac/>}/>
           <Route path="/contact-us" element={<ContactUs/>} />
+          <Route path="/professional-study" element={<ProfessionalStudy/>}/>
         </Routes>
       </main>
       <Footer />
