@@ -1,0 +1,16 @@
+.mainBox{
+    width: 675px;
+    height: auto;
+    padding: 40px 11px 11px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    border-radius: 24px;
+    background-color: #ECF1FC;
+}
+.mainBox h5{
+font-size: 20px;
+}
+.mainBox li{
+    font-size: 18px;
+    }

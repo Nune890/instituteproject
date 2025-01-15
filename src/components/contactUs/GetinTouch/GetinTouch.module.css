@@ -4,7 +4,7 @@
   padding: 58px 156px 239px 156px;
 }
 .mainBox .container {
-  width: 1400px;
+  width: 100%;
   height: 866px;
   display: flex;
   justify-content: space-between;

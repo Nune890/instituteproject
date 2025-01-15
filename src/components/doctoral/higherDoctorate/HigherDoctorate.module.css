@@ -2,6 +2,8 @@
   width: 100%;
   height: 968px;
   background-image: url("../../../assets//routeElementsImg/camera.png");
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
 }

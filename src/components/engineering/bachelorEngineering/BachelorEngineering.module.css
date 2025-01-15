@@ -1,0 +1,22 @@
+.mainBox {
+  width: 100%;
+  height: auto;
+  background-color: antiquewhite;
+  padding: 10px 156px;
+}
+.swiperBox {
+  width: 286px !important;
+  height: 327px !important;
+  background-color: brown;
+}
+.containerBox {
+  width: 100%;
+  height: auto;
+  background-color: aquamarine;
+}
+.containerBox h1 {
+  padding-top: 120px;
+  margin-bottom: 73px;
+  text-align: center;
+  font-size: 45px;
+}

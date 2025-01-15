@@ -3,6 +3,9 @@
   height: 968px;
   background-color: antiquewhite;
   background-image: url("../../../assets/routeElementsImg/studentsGraduation1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
 }

@@ -1,0 +1,56 @@
+.mainBox {
+  width: 100%;
+  height: auto;
+  padding: 10px 156px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainBox .mainTopBox {
+  width: 100%;
+  height: 735px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainTopBox h1 {
+  text-align: center;
+}
+.professionsBox {
+  width: 1325px;
+  height: 372px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainMiddleBox {
+  width: 100%;
+  height: 940px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 40px;
+}
+.mainBottomBox {
+  width: 100%;
+  height: 526px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainBottomBox .bottomMiddleBox {
+  width: 800px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.bottomMiddleBox h1 {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.bottomMiddleBox p {
+  font-size: 18px;
+  text-align: center;
+}
